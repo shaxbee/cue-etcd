@@ -9,7 +9,7 @@ import (
 	state!: "new" | "existing"
 }
 
-cluster: {
+cluster!: {
 	metadata!: {
 		name!:     string
 		namespace: string | *"default"
