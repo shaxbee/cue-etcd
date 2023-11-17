@@ -1,0 +1,7 @@
+apiVersion: etcd.fleet.agoda.com
+kind: EtcdCluster
+metadata:
+  name: foo
+  namespace: test
+spec:
+  replicas: 7
